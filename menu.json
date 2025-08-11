@@ -1,0 +1,26 @@
+{
+  "appetizers": [
+    {
+      "name": "Beef Haleem",
+      "desc": "Haleem is made of four different kinds of lentils with cube beef and chef special spices.",
+      "price": 9.99,
+      "image": "images/beef-haleem.jpg",
+      "videoId": "example-haleem-id"
+    },
+    {
+      "name": "Chotpoti",
+      "desc": "A tangy Bengali street food delight featuring tender chickpeas in a spicy, tamarind-infused sauce, topped with crunchy fuchka shells, onions, and fresh coriander.",
+      "price": 9.99,
+      "image": "images/chotpoti.jpg",
+      "videoId": "KMqHbpsQmyE"
+    },
+    {
+      "name": "Chicken Shingara 2 pc",
+      "desc": "Crispy, golden Bengali pastry with a savory spiced chicken filling, served with tangy tamarind chutney.",
+      "price": 6.99,
+      "image": "images/chicken-shingara.jpg",
+      "videoId": "FOQRJRJ18lo"
+    }
+  ]
+}
+
