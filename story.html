@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhansiri – Our Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FF0000">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav id="sidebar" class="sidebar">
+        <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="sidebar-menu">
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+    </nav>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/dhansiri-logo.png" alt="Dhansiri Restaurant Logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <video class="hero-video" autoplay muted loop src="images/hero-video.mp4"></video>
+        <div class="hero-content" data-custom-hero="true">
+            <h1>Our Story</h1>
+            <p>Discover the journey behind Dhansiri and the passion that fuels our kitchen.</p>
+        </div>
+    </section>
+
+    <!-- Story Content -->
+    <section id="story" class="story-section">
+        <h2 class="section-title animate-slide">Where It All Began</h2>
+        <p>Dhansiri began as a dream to bring the rich, aromatic flavours of Bengali cuisine to our community. Our founder and executive chef, Kana Kamrun, grew up in a family of passionate cooks and has spent decades perfecting recipes passed down through generations. Today, we share these authentic dishes with you in a warm, welcoming atmosphere. From our humble beginnings to becoming a beloved local eatery, our journey is one of dedication, love and a desire to showcase the best of Bengali hospitality.</p>
+        <p>Every spice blend and every dish we serve is a celebration of our heritage. We invite you to be part of our story and experience the tastes and traditions that make Dhansiri unique.</p>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="about-section">
+        <h2 class="section-title animate-slide">Taste Our Tradition</h2>
+        <p>Ready to savour the dishes that define our story? Explore the menu and order your favourites today.</p>
+        <a href="menu.html" class="cta-button">Explore Menu</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons"></div>
+        <div class="policies"></div>
+    </footer>
+
+    <!-- Assistant & Toggle -->
+    <div id="assistant" class="assistant-widget">
+        <div id="assistant-messages" class="assistant-messages"></div>
+        <input type="text" id="assistant-input" class="assistant-input" placeholder="Type a command..." aria-label="Assistant input">
+    </div>
+    <div id="assistant-toggle">💬</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

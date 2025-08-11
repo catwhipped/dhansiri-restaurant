@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | Dhansiri Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#F8B400">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav id="sidebar" class="sidebar">
+        <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <ul class="sidebar-menu">
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="story.html">Our Story</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="temple.html">Temple</a></li>
+        </ul>
+    </nav>
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/dhansiri-logo.png" alt="Dhansiri Restaurant Logo">
+        </div>
+    </header>
+    <section id="hero" class="hero-section">
+        <video class="hero-video" autoplay muted loop src="images/hero-video.mp4"></video>
+        <div class="hero-content" data-custom-hero="true">
+            <h1>Book Catering or Reservations</h1>
+            <p>Plan your next meal or event with us</p>
+        </div>
+    </section>
+    <!-- Booking form section -->
+    <section class="booking-section">
+        <h2 class="section-title">Book Catering or Reservations</h2>
+        <p>Use this form to request catering or make a reservation. We will contact you to confirm.</p>
+        <form id="booking-form" action="#" method="POST">
+            <label>Date:<br><input type="date" name="date" required></label><br>
+            <label>Time:<br><input type="time" name="time" required></label><br>
+            <label>Name:<br><input type="text" name="name" required></label><br>
+            <label>Email:<br><input type="email" name="email" required></label><br>
+            <label>Details:<br><textarea name="details" rows="4" placeholder="Tell us about your event or reservation"></textarea></label><br>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons"></div>
+        <div class="policies"></div>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Assistant Chat -->
+    <div id="assistant" class="assistant-widget">
+        <div id="assistant-messages" class="assistant-messages"></div>
+        <input type="text" id="assistant-input" class="assistant-input" placeholder="Type a command..." aria-label="Assistant input">
+    </div>
+    <div id="assistant-toggle">💬</div>
+</body>
+</html>
