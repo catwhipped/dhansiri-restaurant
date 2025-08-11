@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhansiri – Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <!-- Set the theme color to match the primary accent -->
+    <meta name="theme-color" content="#F8B400">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/dist/index.min.js"></script>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="culture.html">Culture</a>
+        <a href="story.html">Our Story</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="faq.html">FAQ</a>
+        <a href="booking.html">Booking</a>
+        <a href="location.html">Location</a>
+        <a href="newsletter.html">Newsletter</a>
+        <a href="temple.html">Temple</a>
+    </nav>
+    <!-- Fixed Header with Logo -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/dhansiri-logo.png" alt="Dhansiri Logo">
+        </div>
+    </header>
+
+    <!-- Hero Section for Menu Page
+         We display a still image instead of a blank video so that visitors
+         immediately see delicious food when they arrive on the menu page.  -->
+    <section id="hero" class="hero-section hero-food">
+        <img class="hero-image" src="images/hero-food.jpg" alt="Steaming Bengali biryani">
+        <div class="hero-steam"></div>
+        <div class="hero-content" data-custom-hero="true">
+            <h1>Explore Our Menu</h1>
+            <p>Discover an array of authentic Bengali dishes crafted with love.</p>
+            <a href="#menu" class="cta-button">Start Ordering</a>
+        </div>
+    </section>
+
+    <!-- Full Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2 class="section-title animate-slide">Our Menu</h2>
+        <div class="menu-search-container">
+            <input type="text" id="menu-search" placeholder="Search menu..." aria-label="Search menu">
+        </div>
+        <div id="menu-categories"></div>
+    </section>
+
+    <!-- The menu page is intentionally streamlined to focus on the food items.  Extra features like videos, quizzes,
+         the menu editor, cart, loyalty program, newsletter signup, promotions, booking and location have been
+         removed to create a polished, distraction‑free browsing experience. -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <p><strong>Email:</strong> info@dhansiri.com</p>
+                <p><strong>Phone:</strong> 317‑555‑0123</p>
+                <p><strong>Address:</strong> Indianapolis, IN 46204, USA</p>
+            </div>
+            <div class="footer-right">
+                <div class="social-icons"></div>
+                <div class="policies"></div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Checkout Modal and loyalty redemption are already defined above -->
+
+    <!-- AI Assistant Chat Widget & Toggle -->
+    <div id="assistant" class="assistant-widget">
+        <div id="assistant-messages" class="assistant-messages"></div>
+        <input type="text" id="assistant-input" class="assistant-input" placeholder="Type a command..." aria-label="Assistant input">
+    </div>
+    <!-- Floating button to open/close the assistant chat -->
+    <div id="assistant-toggle">💬</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

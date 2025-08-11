@@ -1,0 +1,43 @@
+{
+  "hero": {
+    "title": "Authentic Bengali Flavors Await!",
+    "subtitle": "Spices bolder than a cricket match—order now!",
+    "cta": "View Menu"
+  },
+  "about": {
+    "title": "About Dhansiri",
+    "text": "We are Dhansiri, your gateway to authentic Bengali cuisine—bold spices, heartfelt traditions, and flavors that tell stories of home.",
+    "videoId": "7SDUSqsjPTw"
+  },
+  "footer": {
+    "social": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/yourrestaurant",
+        "icon": "images/facebook-icon.png"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/yourrestaurant",
+        "icon": "images/instagram-icon.png"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/yourrestaurant",
+        "icon": "images/twitter-icon.png"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://youtube.com/yourrestaurant",
+        "icon": "images/youtube-icon.png"
+      }
+    ],
+    "policies": [
+      { "name": "Privacy Policy", "url": "privacy.html" },
+      { "name": "Accessibility Statement", "url": "accessibility.html" },
+      { "name": "Terms & Conditions", "url": "terms.html" },
+      { "name": "Refund Policy", "url": "refund.html" }
+    ]
+  }
+}
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhansiri – Culture &amp; History</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FF0000">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="culture.html">Culture</a>
+        <a href="story.html">Our Story</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="faq.html">FAQ</a>
+        <a href="booking.html">Booking</a>
+        <a href="location.html">Location</a>
+        <a href="newsletter.html">Newsletter</a>
+        <a href="temple.html">Temple</a>
+    </nav>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/dhansiri-logo.png" alt="Dhansiri Restaurant Logo">
+        </div>
+    </header>
+
+    <!-- Hero Section for Culture Page
+         We use our steaming biryani image instead of a video for better compatibility. -->
+    <section id="hero" class="hero-section hero-food">
+        <img class="hero-image" src="images/hero-food.jpg" alt="Steaming Bengali biryani">
+        <div class="hero-steam"></div>
+        <div class="hero-content" data-custom-hero="true">
+            <h1>Discover Bengali Culture &amp; Cuisine</h1>
+            <p>Uncover the rich history and traditions behind the flavours we serve.</p>
+        </div>
+    </section>
+
+    <!-- Introduction to Bengali Cuisine -->
+    <section id="intro-cuisine" class="about-section">
+        <h2 class="section-title animate-slide">Origins of Bengali Cuisine</h2>
+        <p>Bengal’s cuisine is as lush and varied as its landscape.  Fed by the Ganges and Brahmaputra rivers, the region produces fragrant rice, succulent fish and a bounty of vegetables.  Bengali cooks have long balanced flavours—pairing heat with sweetness, mustard with coconut, river fish with sour tamarind.  Staples like <em>panta bhat</em> (fermented rice), <em>ilish maach</em> (hilsa fish) and <em>shorshe maach</em> (fish in mustard sauce) celebrate what the rivers and fields provide.</p>
+        <p>Over the centuries traders, travellers and rulers introduced new ingredients and techniques, from Portuguese cheese (used to make <em>paneer</em>) to Armenian breads.  Each influence was woven into the local fabric, creating dishes that are uniquely Bengali.  Family recipes were guarded and shared by word of mouth, ensuring that the artistry of spice‑tempering and slow simmering would endure through generations.</p>
+    </section>
+
+    <!-- Mughal Influence Section -->
+    <section id="mughal" class="story-section">
+        <h2 class="section-title animate-slide">Mughal Inspirations</h2>
+        <p>In the 16th and 17th centuries the Mughal Empire swept across the Indian subcontinent, bringing with it a royal courtly cuisine.  Legendary emperors like Akbar and Shah Jahan dined on elaborate feasts featuring aromatic rice, tender meat and fragrant spices.  Bengal, a wealthy province of the empire, embraced these influences while adding local flavours of mustard, chilli and river fish.</p>
+        <p>Many of our most beloved dishes trace their roots to this era.  The <em>kacchi biryani</em>—a delicate layering of marinated meat and half‑cooked rice finished in a sealed pot—was said to be a favourite of Emperor Shah Jahan.  <em>Beef tehari</em>, a rustic one‑pot meal of beef and rice, originated in the kitchens of palace guards who needed hearty sustenance.  And <em>shahi haleem</em> (royal haleem) evolved from the slow‑cooked wheat porridge served during Ramadan, enriched with lentils and shredded beef for nobility.  These dishes remain centrepieces of Bengali celebrations today, carrying the legacy of the Mughal courts and the creativity of Bengali cooks.</p>
+    </section>
+
+    <!-- Cultural Significance Section -->
+    <section id="significance" class="story-section">
+        <h2 class="section-title animate-slide">Food &amp; Festivities</h2>
+        <p>Food plays a central role in Bengali celebrations. From the colourful <em>Pohela Boishakh</em> new year feast to the sweet treats of Durga Puja, meals bring family and friends together. Traditional sweets such as <em>rosogolla</em>, <em>mishti doi</em> and <em>sandesh</em> mark special occasions. Savoury snacks like <em>puchka</em> and <em>chotpoti</em> are enjoyed at street-side stalls, while elaborate rice and curry spreads grace wedding tables.</p>
+    </section>
+
+    <!-- Call to Action Section to explore menu -->
+    <section id="explore-menu" class="about-section">
+        <h2 class="section-title animate-slide">Experience the Flavours</h2>
+        <p>Now that you know the story behind our dishes, taste them for yourself. Our menu features a variety of appetizers, mains and desserts inspired by Bengali heritage. From fiery curries to delicate bhortas, there's something for every palate.</p>
+        <a href="menu.html" class="cta-button">Browse the Menu</a>
+    </section>
+
+    <!-- Footer with contact info, social links and policies -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="contact-info">
+                <p><strong>Email:</strong> info@dhansiri.com</p>
+                <p><strong>Phone:</strong> 317‑555‑0123</p>
+                <p><strong>Address:</strong> Indianapolis, IN 46204, USA</p>
+            </div>
+            <div class="footer-right">
+                <div class="social-icons"></div>
+                <div class="policies"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Assistant Chat Widget & Toggle -->
+    <div id="assistant" class="assistant-widget">
+        <div id="assistant-messages" class="assistant-messages"></div>
+        <input type="text" id="assistant-input" class="assistant-input" placeholder="Type a command..." aria-label="Assistant input">
+    </div>
+    <!-- Floating button to open/close the assistant chat -->
+    <div id="assistant-toggle">💬</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
